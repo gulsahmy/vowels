@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    background-color: hotpink;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    font-weight: bold ;
+    border-radius: 5px;
+}
